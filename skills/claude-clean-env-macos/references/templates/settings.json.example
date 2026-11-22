@@ -1,0 +1,42 @@
+{
+  "autoUpdatesChannel": "stable",
+  "skipWebFetchPreflight": true,
+  "autoUploadSessions": false,
+  "remoteControlAtStartup": false,
+  "feedbackSurveyRate": 0,
+  "feedbackDrafts": "off",
+  "attribution": {
+    "commit": "",
+    "pr": "",
+    "sessionUrl": false
+  },
+  "env": {
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "DISABLE_TELEMETRY": "1",
+    "DISABLE_ERROR_REPORTING": "1",
+    "DISABLE_AUTOUPDATER": "1",
+    "DISABLE_FEEDBACK_COMMAND": "1",
+    "DISABLE_BUG_COMMAND": "1",
+    "CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY": "1",
+    "CLAUDE_CODE_DISABLE_FEATURE_FLAGS": "1",
+    "DISABLE_GROWTHBOOK": "1",
+    "CLAUDE_CODE_DISABLE_VITALS_EMITTER": "1",
+    "CLAUDE_CODE_DISABLE_OFFICIAL_MARKETPLACE_AUTOINSTALL": "1",
+    "CLAUDE_CODE_SUPPRESS_SESSION_ATTRIBUTION": "1",
+    "DO_NOT_TRACK": "1",
+    "HTTP_PROXY": "http://127.0.0.1:10810",
+    "HTTPS_PROXY": "http://127.0.0.1:10810",
+    "http_proxy": "http://127.0.0.1:10810",
+    "https_proxy": "http://127.0.0.1:10810",
+    "CLAUDE_CODE_HTTP_PROXY": "http://127.0.0.1:10810",
+    "CLAUDE_CODE_HTTPS_PROXY": "http://127.0.0.1:10810",
+    "ALL_PROXY": "socks5h://127.0.0.1:10810",
+    "all_proxy": "socks5h://127.0.0.1:10810",
+    "CLAUDE_CODE_PROXY_RESOLVES_HOSTS": "1",
+    "NO_PROXY": "localhost,127.0.0.1,::1",
+    "no_proxy": "localhost,127.0.0.1,::1",
+    "TZ": "America/New_York",
+    "LANG": "en_US.UTF-8",
+    "LC_ALL": "en_US.UTF-8"
+  }
+}

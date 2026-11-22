@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Replace __HOME__ with $HOME and __NODE_REMARKS__ with your exact v2rayN node Remarks before installing -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>local.claude-egress-watch</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__HOME__/.local/bin/claude-egress-sync</string>
+    <string>--remarks</string>
+    <string>__NODE_REMARKS__</string>
+    <string>--quiet</string>
+  </array>
+  <key>WatchPaths</key>
+  <array>
+    <string>__HOME__/Library/Application Support/v2rayN/guiConfigs/guiNDB.db</string>
+    <string>__HOME__/Library/Application Support/v2rayN/guiConfigs</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>5</integer>
+  <key>StandardOutPath</key>
+  <string>__HOME__/.local/share/claude-egress/sync.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>__HOME__/.local/share/claude-egress/sync.err.log</string>
+</dict>
+</plist>

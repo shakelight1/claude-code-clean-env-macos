@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Replace __HOME__ with your $HOME path before installing into ~/Library/LaunchAgents/local.claude-egress.plist -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>local.claude-egress</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__HOME__/Library/Application Support/v2rayN/bin/xray/xray</string>
+    <string>run</string>
+    <string>-c</string>
+    <string>__HOME__/.local/share/claude-egress/xray.json</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__HOME__/Library/Application Support/v2rayN/bin/xray</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>3</integer>
+  <key>StandardOutPath</key>
+  <string>__HOME__/.local/share/claude-egress/xray.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>__HOME__/.local/share/claude-egress/xray.err.log</string>
+</dict>
+</plist>
